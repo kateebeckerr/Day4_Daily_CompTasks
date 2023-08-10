@@ -1,0 +1,43 @@
+---
+title: "r-exploring"
+format:
+  html:
+    theme: default
+    toc: true
+    number-sections: true
+---
+
+```{r}
+library(tidyverse)
+library(skimr)
+library(GGally)
+
+View(diamonds)
+names(diamonds)
+```
+
+```{r}
+dim(diamonds)
+```
+
+```{r}
+summary(diamonds)
+```
+
+```{r}
+head(diamonds)
+```
+
+```{r}
+tail(diamonds)
+```
+
+```{r}
+ggpairs(diamonds)
+```
+
+ggplot(data = diamonds, aes
+
+
+yes changes!!
+
