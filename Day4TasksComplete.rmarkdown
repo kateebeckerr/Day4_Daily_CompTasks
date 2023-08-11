@@ -36,8 +36,21 @@ tail(diamonds)
 ggpairs(diamonds)
 ```
 
-ggplot(data = diamonds, aes
+```{r}
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+         geom_point()
+```
+
+```{r}
+ggplot(data = diamonds, aes(x = carat)) +
+  geom_histogram()
+  
+```
+
+```{r}
+ggplot(data = diamonds, aes(x = clarity, y = price)) +
+  geom_boxplot()
 
 
-yes changes!!
+```
 
